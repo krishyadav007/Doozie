@@ -1,0 +1,39 @@
+{
+  "name": "my-nextjs-app",
+  "version": "1.0.0",
+  "description": "A Next.js application with MySQL and Tailwind CSS for capturing web analytics.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "chart.js": "^4.4.8",
+    "d3": "^7.9.0",
+    "d3-geo": "^3.1.1",
+    "d3-scale": "^4.0.2",
+    "mysql": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-calendar-heatmap": "^1.10.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "latest",
+    "react-simple-maps": "^3.0.0",
+    "sweetalert2": "^11.17.2",
+    "sweetalert2-react-content": "^5.1.0",
+    "tailwindcss": "^3.4.17",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "dotenv-webpack": "^8.1.0",
+    "postcss": "^8.5.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
