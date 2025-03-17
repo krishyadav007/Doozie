@@ -1,3 +1,4 @@
+import Swal from 'sweetalert2';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -32,6 +33,11 @@ export default function Home() {
       router.push(`/d/${result.id}/view/`);
     } else {
       console.error('Failed to save embed link:', result.error);
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Failed to save embed link: ' + result.error,
+      });
     }
 
     setEmbedLink('');
